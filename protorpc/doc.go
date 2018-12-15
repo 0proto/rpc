@@ -4,14 +4,14 @@
 // license that can be found in the LICENSE file.
 
 /*
-Package gorilla/rpc/protorpc provides a codec for ProtoRPC over HTTP services.
+Package alpacahq/rpc/protorpc provides a codec for ProtoRPC over HTTP services.
 
 To register the codec in a RPC server:
 
 	import (
 		"http"
-		"github.com/gorilla/rpc"
-		"github.com/gorilla/rpc/protorpc"
+		"github.com/alpacahq/rpc"
+		"github.com/alpacahq/rpc/protorpc"
 	)
 
 	func init() {
@@ -41,7 +41,7 @@ Response:
   "responseField2": "value2",
 }
 
-Check the gorilla/rpc documentation for more details:
+Check the alpacahq/rpc documentation for more details:
 
 	http://gorilla-web.appspot.com/pkg/rpc
 */

@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gorilla/rpc/v2"
+	"github.com/alpacahq/rpc/rpc2"
 )
 
 const jsonContentType = "application/json; charset=utf-8"
