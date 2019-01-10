@@ -4,14 +4,14 @@
 // license that can be found in the LICENSE file.
 
 /*
-Package alpacahq/rpc/json provides a codec for JSON-RPC over HTTP services.
+Package 0proto/rpc/json provides a codec for JSON-RPC over HTTP services.
 
 To register the codec in a RPC server:
 
 	import (
 		"http"
-		"github.com/alpacahq/rpc"
-		"github.com/alpacahq/rpc/json"
+		"github.com/0proto/rpc"
+		"github.com/0proto/rpc/json"
 	)
 
 	func init() {
@@ -51,7 +51,7 @@ Response format is:
 	id:
 		The same id as the request it is responding to.
 
-Check the alpacahq/rpc documentation for more details:
+Check the 0proto/rpc documentation for more details:
 
 	http://gorilla-web.appspot.com/pkg/rpc
 */

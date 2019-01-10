@@ -1,1 +1,1 @@
-module github.com/alpacahq/rpc
+module github.com/0proto/rpc
